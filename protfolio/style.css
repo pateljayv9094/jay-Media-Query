@@ -25,6 +25,9 @@ body{
  .flex-wrap{
     flex-wrap: wrap;
  }
+  .flex-col-reverse {
+     flex-direction: column-reverse;
+  }
  .justify-content-center{
     justify-content: center;
  }
@@ -60,17 +63,24 @@ body{
     font-size: 17px;
     margin: 0px 10px;
 }
-button{
+.pr{
+    margin-top: 20px;
+}
+.btn{
     background-color: orangered;
     color: white;
     border-radius: 3px;
     height:30px;
+    margin-top: 20px;
+    margin-bottom: 25px;
 }
 .imag {
-    background-image: url("https: //as1.ftcdn.net/jpg/04/23/59/74/1000_F_423597477_AKCjGMtevfCi9XJG0M8jter97kG466y7.jpg");
+    background-image: url("jay.jpg");
     height: 200px;
     width: 200px;
-    
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
 }
 .man-box {
     background-color: skyblue;
@@ -78,6 +88,7 @@ button{
 }
 
 .box-1 {
+    width: 400px;
     background-color: white;
     padding: 20px;
     max-width: 470px;
@@ -85,4 +96,42 @@ button{
     flex-direction: column;
     gap: 18px;
 
+}
+
+.feature-direction{
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+.feature-direction img{
+      border-radius: 8px;
+}
+.feature-direction div div{
+    margin: 15px 0px;
+}
+.feature-direction div div button{
+    background-color: rgb(81, 81, 81);
+    color: white;
+    border: none;
+    border-radius: 50px;
+    padding: 6px 14px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.feature-direction div div span{
+    color: gray;
+    margin-left: 20px;
+
+}
+.feature-direction div p{
+    color: gray;
+}
+.feature-direction div{
+    margin: 20px;
+}
+.icon{
+ font-size: 20px;
+  
+  
+display: flex;
+    gap: 18px;
 }
