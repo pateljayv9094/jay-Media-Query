@@ -167,6 +167,7 @@
         width: 50%;
     }
 
+
     .man-box {
         width: 450px;
     }
@@ -177,6 +178,10 @@
 
     .man-box-header {
         justify-content: space-between;
+    }
+
+    .feature-direction {
+        flex-direction: row;
     }
 
     .feature-direction {

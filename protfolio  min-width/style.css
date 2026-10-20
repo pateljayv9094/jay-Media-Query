@@ -83,11 +83,12 @@ body{
     border-radius: 50%;
 }
 .man-box {
-    background-color: skyblue;
+    background-color: aqua;
     width: 100%;
 }
 
 .box-1 {
+ 
     width: 400px;
     background-color: white;
     padding: 20px;
